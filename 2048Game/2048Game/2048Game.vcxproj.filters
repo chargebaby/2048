@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="core">
-      <UniqueIdentifier>{6aa682c0-a745-497d-a363-4487660ce16c}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -27,30 +24,12 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Plane2048.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Struct2048.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Core2048.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="2048.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Plane2048.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Struct2048.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Core2048.cpp">
+    <ClCompile Include="2048Game.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
